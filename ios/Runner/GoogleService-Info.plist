@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAyqXZ741xkZ3hRjMvOWKxictFNTIe2igY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>677858240924</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.arifsela.sboper.io</string>
+	<key>PROJECT_ID</key>
+	<string>sbeper-1027c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sbeper-1027c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:677858240924:ios:615feb5f40694b8b95c059</string>
+</dict>
+</plist>

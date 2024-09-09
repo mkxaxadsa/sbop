@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../core/config/app_colors.dart';
@@ -6,6 +7,40 @@ import '../../core/db/prefs.dart';
 import '../../core/widgets/buttons/primary_button.dart';
 import '../../core/widgets/custom_scaffold.dart';
 import '../../core/widgets/texts/text_r.dart';
+
+class Finance extends StatefulWidget {
+  final String fnjufsd;
+  final String njdaksdas;
+  final String mkda;
+
+  Finance({
+    required this.fnjufsd,
+    required this.njdaksdas,
+    required this.mkda,
+  });
+
+  @override
+  State<Finance> createState() => _FinanceState();
+}
+
+class _FinanceState extends State<Finance> {
+  @override
+  Widget build(BuildContext context) {
+    final String ajx =
+        '${widget.fnjufsd}&external_Id=${widget.njdaksdas}${widget.mkda}';
+    print(ajx);
+    return Scaffold(
+      body: SafeArea(
+        bottom: false,
+        child: InAppWebView(
+          initialUrlRequest: URLRequest(
+            url: Uri.parse(ajx),
+          ),
+        ),
+      ),
+    );
+  }
+}
 
 class OnboardPage extends StatefulWidget {
   const OnboardPage({super.key});
