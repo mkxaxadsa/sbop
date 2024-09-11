@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:go_router/go_router.dart';
+import 'package:project20/main.dart';
 
 import '../../core/config/app_colors.dart';
 import '../../core/db/prefs.dart';
@@ -24,6 +25,12 @@ class Finance extends StatefulWidget {
 }
 
 class _FinanceState extends State<Finance> {
+  @override
+  void initState() {
+    super.initState();
+    initializeAppTrackingTransparency();
+  }
+
   @override
   Widget build(BuildContext context) {
     final String ajx =

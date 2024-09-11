@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fl_chart/fl_chart.dart';
 import 'package:project20/core/utils.dart';
-
+import 'package:fl_chart/fl_chart.dart';
 import '../../../core/config/app_colors.dart';
 import '../../../core/widgets/texts/text_r.dart';
 
@@ -36,9 +35,9 @@ class DashboardCard extends StatelessWidget {
                     LineChartBarData(
                       isStrokeCapRound: true,
                       isCurved: true,
-                      color: AppColors.text1,
+                      // color: AppColors.text1,
                       barWidth: 7,
-                      dotData: const FlDotData(show: false), // Hide dots
+                      dotData: FlDotData(show: false), // Hide dots
                       belowBarData: BarAreaData(
                         show: false, // Hide shaded area below the line
                       ),
@@ -58,10 +57,10 @@ class DashboardCard extends StatelessWidget {
                       ],
                     ),
                   ],
-                  titlesData: const FlTitlesData(
+                  titlesData: FlTitlesData(
                     show: false, // Hide labels on x and y axis
                   ),
-                  gridData: const FlGridData(show: false), // Hide grid lines
+                  gridData: FlGridData(show: false), // Hide grid lines
                   borderData: FlBorderData(show: false), // Hide border lines
                   minY: 0, // Minimum y-value
                   maxY: 24, // Maximum y-value with padding added

@@ -1,0 +1,1 @@
+ /Users/kilxsx/Downloads/project20-main/.dart_tool/flutter_build/c3eca49ea39897d6e0f8665c806e6aa6/native_assets.yaml: 

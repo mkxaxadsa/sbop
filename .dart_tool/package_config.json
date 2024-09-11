@@ -189,9 +189,9 @@
     },
     {
       "name": "fl_chart",
-      "rootUri": "file:///Users/kilxsx/.pub-cache/hosted/pub.dev/fl_chart-0.69.0",
+      "rootUri": "file:///Users/kilxsx/.pub-cache/hosted/pub.dev/fl_chart-0.65.0",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter",
@@ -633,7 +633,7 @@
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///Users/kilxsx/.pub-cache/hosted/pub.dev/vm_service-14.2.4",
+      "rootUri": "file:///Users/kilxsx/.pub-cache/hosted/pub.dev/vm_service-14.2.5",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -662,10 +662,10 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-09-09T07:34:07.168564Z",
+  "generated": "2024-09-11T11:28:15.660381Z",
   "generator": "pub",
-  "generatorVersion": "3.5.0",
+  "generatorVersion": "3.5.2",
   "flutterRoot": "file:///Users/kilxsx/Documents/dev/flutter",
-  "flutterVersion": "3.24.0",
+  "flutterVersion": "3.24.2",
   "pubCache": "file:///Users/kilxsx/.pub-cache"
 }

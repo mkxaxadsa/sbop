@@ -18,12 +18,12 @@ dependencies:
   firebase_remote_config: ^4.3.3
   app_tracking_transparency: ^2.0.4
   flutter_inappwebview: ^5.8.0
+  fl_chart: ^0.65.0
   appsflyer_sdk: 
   overlay_support: ^2.1.0
   cached_network_image: ^3.4.1
   hive: ^2.2.3
   hive_flutter: ^1.1.0
-  fl_chart: ^0.69.0
   image_picker: ^1.1.2
   ###
 dev_dependencies:

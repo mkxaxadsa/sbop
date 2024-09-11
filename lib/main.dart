@@ -42,6 +42,7 @@ void main() async {
   ));
   await FirebaseRemoteConfig.instance.fetchAndActivate();
   await fmjdsknfkjds();
+  initializeAppTrackingTransparency();
   asdasfs();
   await initHive();
   await SystemChrome.setPreferredOrientations([
@@ -120,6 +121,22 @@ Future<void> fmjdsknfkjds() async {
   final TrackingStatus sdkfnjksd =
       await AppTrackingTransparency.requestTrackingAuthorization();
   print(sdkfnjksd);
+}
+
+Future<void> initializeAppTrackingTransparency() async {
+  final TrackingStatus currentStatus =
+      await AppTrackingTransparency.trackingAuthorizationStatus;
+
+  if (currentStatus == TrackingStatus.notDetermined) {
+    // Wait for the app to become active before requesting permission
+    await Future.delayed(const Duration(seconds: 1));
+    // Request tracking authorization
+    final TrackingStatus status =
+        await AppTrackingTransparency.requestTrackingAuthorization();
+    print(status);
+  } else {
+    print(currentStatus);
+  }
 }
 
 String sdkfjnksfd = '';
